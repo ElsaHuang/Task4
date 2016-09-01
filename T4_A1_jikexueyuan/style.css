@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*导航栏*/
+
+.header {
+    width: 100%;
+    height: 110px;
+    background-color: orange;
+}
+
+
+/*内容栏*/
+
+.content {
+    width: 1000px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: blue;
+}
+
+
+/*底部*/
+
+.footer {
+    width: 100%;
+    height: 300px;
+}
+
+
+/*底部导航栏*/
+
+.footer-nav {
+    width: 100%;
+    height: 250px;
+    background-color: purple;
+}
+
+
+/*版权信息*/
+
+.copyright {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: grey;
+}
+
+.copyright a:hover {
+    color:green;
+    text-decoration: none;
+}
+.copyright a:link, a:visited, a:active{
+    color:grey;
+    text-decoration: none;
+}
